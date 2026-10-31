@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title> Hazell's Website</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <span>Day 1 — Spring</span>
+    <button id="mode" type="button" aria-label="Switch theme">Night / Day</button>
+  </header>
+
+  <main id="home">
+
+    <section class="box hero" aria-label="Introduction">
+      <div class="pixel-portrait-frame">
+        <img src="pfp (1).jpg" alt="Hazell Pixel Photo" class="pixel-portrait-img">
+      </div>
+      <h1>Hi, I'm Hazell.</h1>
+      <p class="say" id="say" aria-live="polite"></p>
+      <div class="tags">
+        <span class="tag">photographer</span>
+        <span class="tag">writer</span>
+        <span class="tag">student journalist</span>
+        <span class="tag">vocalist</span>
+      </div>
+    </section>
+    
+    <section class="box childhood" aria-labelledby="ch">
+      <h2 id="ch">Childhood Story</h2>
+      <p>I'm in a family that consists of 5 members. Ako ang middle child at may part ng buhay ko na naging black sheep (not proud of course, but it taught me a lot!). I have a big sister and a younger brother.</p>
+      
+  
+      <div class="photostrip">
+        <div class="photo-card">
+          <img src="pic3.jpeg" alt="Childhood Memory 1">
+          <span class="caption">Memory #1</span>
+        </div>
+        <div class="photo-card">
+          <img src="pic2.jpeg" alt="Childhood Memory 2">
+          <span class="caption">Memory #2</span>
+        </div>
+        <div class="photo-card">
+          <img src="pic1.png" alt="Childhood Memory 3">
+          <span class="caption">Memory #3</span>
+        </div>
+      </div>
+    </section>
+
+   
+    <section class="box write" aria-labelledby="w">
+      <h2 id="w">Writing</h2>
+      <p>I've been writing since grade 6. I fell in love with creative writing in Filipino — poems, stories, and essays.</p>
+      <div class="btn-group">
+        <a class="btn" href="#writing">View More → </a>
+        <a class="btn btn-sj" href="#journalist">✎ Student Journalist Story</a>
+      </div>
+    </section>
+
+
+    <section class="box photo" aria-labelledby="ph">
+      <h2 id="ph">Photography</h2>
+      <p>I'm fascinated by the art of capturing moments. Photography is the one thing about me that'll never change.</p>
+      
+      <a class="btn" href="#photography" style="margin-top:15px;">View More → </a>
+    </section>
+
+    <section class="box music" aria-labelledby="mu">
+      <h2 id="mu">Paramore Tracks (Spotify)</h2>
+      <div class="eq" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      <p>Photography & Paramore (P.P) are the two things I love most!</p>
+      
+      <div class="spotify-list">
+        <iframe class="spotify-player" src="https://open.spotify.com/embed/track/0q99swv2f9L5m8JHkF3sDC?utm_source=generator&theme=0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <iframe class="spotify-player" src="https://open.spotify.com/embed/track/2ZbHgxLSjIzqzTuZAwvbZv?utm_source=generator&theme=0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <iframe class="spotify-player" src="https://open.spotify.com/embed/track/7AbMI7lGeKQDEnIDpmSvHn?utm_source=generator&theme=0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </div>
+
+      <a class="btn" href="#music" style="margin-top:15px;">View More Music → </a>
+    </section>
+    
+    <section class="box dlg" aria-labelledby="sd">
+      <h2 id="sd">Stardew Valley</h2>
+      <p>This game is super special to me. It's also the main inspiration behind this website's pixel design ♡</p>
+    </section>
+
+    <section class="box menu" aria-labelledby="fd">
+      <h2 id="fd">Foods I Love</h2>
+      <div class="row"><b>Chocolates</b><s></s></div>
+      <div class="row"><b>Spicy Chicken</b><s></s></div>
+      <div class="row"><b>Kaldereta</b><s></s></div>
+      <div class="row"><b>Sisig</b><s></s></div>
+      <div class="row"><b>Inasal</b><s></s></div>
+      <a class="btn" href="#food" style="margin-top:14px;">View More → </a>
+    </section>
+
+    <section class="box" aria-labelledby="bk">
+      <h2 id="bk">Books</h2>
+      <div class="shelf" aria-hidden="true">
+        <i style="height:70px;background:#c0504d"></i>
+        <i style="height:95px;background:#4d8fc0"></i>
+        <i style="height:80px;background:#e0b84a"></i>
+        <i style="height:100px;background:#5aa96a"></i>
+        <i style="height:75px;background:#9b6bc0"></i>
+      </div>
+      <p>I used to read a lot of Filipino books at my aunt's house during lazy afternoons.</p>
+      <a class="btn" href="#books">View More → </a>
+    </section>
+
+    <section class="box" aria-labelledby="cl">
+      <h2 id="cl">December</h2>
+      <div class="cal" id="cal"></div>
+      <p class="note">December 20 is my birthday. Gifts welcome.</p>
+    </section>
+  </main>
+
+
+  <main class="view" id="v-writing">
+    <p><a class="btn" href="#">← Back Home</a></p>
+    <section class="box write">
+      <h2>Writing Journey</h2>
+      <p>I love writing poems, stories, even essays lol. Maraming times na nakakuha ako ng compliment from my teachers na maganda ako magsulat (without AI yan ah hahaha).</p>      
+      <p>There was a time in Grade 10 where I was so bad at math, then we had a project to associate a story into permutations. Ako ang writer ng story na 'yon. My teacher was complimenting me that I'm a very good writer daw. She kept that comics that we made and I still long for it.</p>
+      <p>I also experienced going into low-level competitions about writing, mostly essays. I stopped writing for a long time now because of burnout, but I'm trying my best to get back at it.</p>
+      <a class="btn btn-sj" href="#journalist" style="margin-top:15px;">Read My Student Journalist Story →</a>
+    </section>
+  </main>
+
+  <main class="view" id="v-journalist">
+    <p><a class="btn" href="#">← Back Home</a></p>
+    <article class="paper">
+      <h1>Ang Tinghoy — Student Journalist</h1>
+      <div class="stat">
+        <span>News Writer</span>
+        <span>Editor in Chief</span>
+        <span>Online Publication 3rd Place</span>
+        <span>Regionals Qualifier</span>
+      </div>
+      <p><a href="https://www.facebook.com/share/19BCUBE5M5/" target="_blank">Visit Official School Publication Page ↗</a></p>
+      <div class="col">
+        <h3>The Beginning</h3>
+        <p>I never actually joined any organization at school before, so I was really new to the system. There were a lot of works and I was a bit overwhelmed. I actually thought about quitting before because of stress! But anyways, it all started with our Grade 11 subject teacher, Miss Angelica Pesito. She is my favorite teacher EVER. Magaling magturo at engaged kaming lahat sa kaniya. Siya rin ang adviser ng <i>Ang Tinghoy</i>, ang Filipino school publication namin. Sumali ako dahil na rin sa friend kong si Sharil, at fortunately nakapasok naman ako.</p>
+        <h3>The Best Part of High School</h3>
+        <p>I felt a lot of emotions in that publication, pero 'di ko matatanggi na 'yon ang pinakamasayang parte ng high school life ko. Ang dami kong natutunan — pumunta sa ibang lugar to cover, magbabad sa araw, magpabalik-balik to get info, lumakas ang loob mag-interview, mag-technical, mag-layout, mag-edit ng video, at mag-lead.</p>
+        <h3>Becoming EIC & Challenges</h3>
+        <p>Sadly, umalis si Ma'am ang school year na naging EIC ako, and everything felt so hard for me. Very inexperienced ako tapos nawala pa 'yung reason kung bakit ako sumali. Nawala pa 'yung passion ko sa pagsusulat nung time na 'yon, kaya hirap na hirap akong magsulat kahit simpleng article. Almost every time kinakwestyon ko ang pagiging leader ko. There were times na umiiyak ako sa pressure, especially nung lumaban kami sa Division Schools Press Conference.</p>
+        <h3>The Victory</h3>
+        <p>I had to sacrifice my time and effort. I was able to finish the newspaper (shoutout kay Cath diyan!), and we placed and qualified for Regionals. After being the last placed group last time, nakuha namin ang <b>3rd Place! T-T</b></p>
+        <p>Our category was <b>Online Publication</b> — we had to publish a website made from WordPress, make it beautiful, and input editorial cartoons and articles (news, sports, editorial, opinion) all under <b>4 hours</b>! (Fun fact: the quiet cartoonist of our group, Ronel Benson, is actually my classmate this year and we're closer now!)</p>
+        <h3>Grateful Heart</h3>
+        <p>Kahit napakaraming challenges, ang daming ganap at taong naging special sa akin na nagpasaya ng karanasan ko sa Tinghoy. Kung bibigyan ako ng chance ma-experience uli 'yon, I would never decline it.</p>
+      </div>
+    </article>
+  </main>
+
+  <main class="view" id="v-photography">
+    <p><a class="btn" href="#">← Back Home</a></p>
+    <section class="box photo">
+      <h2>Photography</h2>
+      <p>I tend to change my mind a lot — I used to swear I wanted to be a doctor, and now I'm taking Computer Science! But my love for photography will never change. I'm fascinated by the art of capturing moments through a camera. It started when I was a kid. I actually taught photography more than writing! LOL.</p>
+      <p>The very first person to teach me was Ma'am Pesito as well. Kung saan-saan na rin ako dinala ng photography — clients, private groups, events — but I still see myself as a beginner.</p>
+      <p>Now, I have a group with 3 members called <b>Trisiklo</b> (tray-siklo / tri-siklo). Small group lang at nag-start pa lang, but we take clients! <a href="https://www.facebook.com/share/1BsdeWxJhR/" target="_blank">Visit Trisiklo Facebook Page ↗</a></p>
+    </section>
+  </main>
+
+  <main class="view" id="v-music">
+    <p><a class="btn" href="#">← Back Home</a></p>
+    <section class="box music">
+      <h2>Music & Paramore</h2>
+      <p>Every person that knows me knows two things I love most: Photography and Paramore. (woohoo P.P). I know ALL of their songs huhu. Became a fan when I was around 12 or 13. One of my biggest flexes is being noticed by THE Hayley Williams!</p>
+      <p>I listen to a lot of rock — alternative, indie, experimental, metal, JUST ANY ROCK COME ON. I was also in a band as the vocalist. We performed, it was so fun and I miss it! I play guitar, a bit of drums, keys, and ukulele.</p>      
+      <p>My dream is to perform in front of a big crowd, though my voice shakes when I get nervous (depends if I'm excited though).</p>
+      
+      <!-- YouTube Live Performances Category -->
+      <h3 style="margin-top: 24px; color: var(--accent); font-family: var(--px); font-size: 11px;">These are my favorite live performances of Paramore that can be watched in YouTube</h3>
+      
+      <div class="video-list" style="display: flex; flex-direction: column; gap: 14px; margin-top: 14px;">
+        <!-- All I Wanted - Bonnaroo 2023 -->
+        <div class="video-container" style="border-radius: 12px; overflow: hidden; border: 2px solid var(--edge); box-shadow: 0 3px 0 var(--shadow);">
+          <iframe width="100%" height="250" src="https://www.youtube.com/embed/J-i_YUptO7I" title="Paramore - All I Wanted - Bonnaroo 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+        <!-- Last Hope Live -->
+        <div class="video-container" style="border-radius: 12px; overflow: hidden; border: 2px solid var(--edge); box-shadow: 0 3px 0 var(--shadow);">
+          <iframe width="100%" height="250" src="https://www.youtube.com/embed/XoYu7K6Ywkg" title="Paramore: Last Hope (LIVE)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+        <!-- (One of Those) Crazy Girls - Writing The Future -->
+        <div class="video-container" style="border-radius: 12px; overflow: hidden; border: 2px solid var(--edge); box-shadow: 0 3px 0 var(--shadow);">
+          <iframe width="100%" height="250" src="https://www.youtube.com/embed/UqUhZ6Msjks" title="Paramore - (One of Those) Crazy Girls // Writing The Future" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <br>
+      <a class="btn" href="https://open.spotify.com/user/31ncau6k3stpvbz6wn4ob4t33rdy?si=GTBEVvnzRxGlYv5cc0rVFw&utm_source=copy-link" target="_blank">Me sa Spotify ↗</a>
+    </section>
+  </main>
+
+  <main class="view" id="v-food">
+    <p><a class="btn" href="#">← Back Home</a></p>
+    <section class="box menu">
+      <h2>Foods I Love</h2>
+      <p>I love eating! My favorites include chocolates, spicy chicken, kaldereta, SISIG, and inasal. And I also hate it about me because I'm actually trying to be fit... again LOL. Actually, di lang yan favorite foods ko, marami pa talaga, nahihiya lang ako ilagay lahat </p>
+    </section>
+  </main>
+
+  <main class="view" id="v-books">
+    <p><a class="btn" href="#">← Back Home</a></p>
+    <section class="box">
+      <h2>Books</h2>
+      <p>The reason why I had a bit of skill in writing is because I used to read a lot when I was younger. My cousin left her old books at my aunt's house where I spent most of my childhood. Every afternoon, since bawal kaming lumabas dahil mainit, nagbabasa ako! I loved reading Filipino books, especially long stories — na-e-excite ako kapag mahaba!</p>
+      <p>I'm in a book slump right now, but there are books I plan on reading soon ♡</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      <a href="https://www.facebook.com/share/1VKtwmGuNh/" target="_blank">Facebook</a> ·
+      <a href="https://instagram.com/ryusqq" target="_blank">IG @ryusqq</a> ·
+      <a href="https://instagram.com/fluclq" target="_blank">IG @fluclq</a>
+    </p>
+    <p style="font-size:16px; margin-top:6px;">Made with ♡</p>
+  </footer>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
